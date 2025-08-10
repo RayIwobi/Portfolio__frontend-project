@@ -113,8 +113,8 @@ function Projects() {
                     Backend uses Node.js, Express, MongoDB, JWT, and bcrypt for secure auth and data storage.
                 </p>
                 <div className='projects-links'>
-                    <Link to='https://github.com/RayIwobi/Ecom-backend'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
-                    <Link to='https://nedifoods.co.uk'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                    <Link to=''><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                    <Link to=''><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
                 </div>
             </div>
 
