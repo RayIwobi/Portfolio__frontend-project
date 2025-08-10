@@ -222,8 +222,9 @@ ul ul ul {
 
 @media screen and (max-width: 600px) {
   .dropdown {
-    display: block; /* show dropdown normally on mobile */
+    display: block;
     width: 100%;
+    padding: 0 10px;
   }
   
   .dropdown-toggle {

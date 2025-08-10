@@ -15,7 +15,7 @@ function Menu() {
             <button 
                 className="dropdown-toggle" 
                 onClick={toggleMenu} 
-                aria-expanded={isOpen}
+                aria-expanded={isOpen} 
             >
                 ☰ Menu 
                 <div className='webname'>rayicon</div>
