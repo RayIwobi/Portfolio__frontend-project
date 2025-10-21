@@ -6,6 +6,7 @@ import yarnix from './assets/yarnix.jpg'
 import movieplace from './assets/movieplace.jpg'
 import meter from './assets/meter.jpg'
 import login from './assets/login.jpg'
+import authenticate from './assets/authenticate.jpg'
 import productlisting from './assets/productlisting.jpg'
 
 
@@ -54,7 +55,7 @@ function Projects() {
                 </div>
             </div>
             <div className='projectsContainer'>
-                <img src={yarnix} alt='nedifoods-image' />
+                <img src={yarnix} alt='yarnix' />
                 <h2>Yarnix social media App</h2>
                 <p>
                     Yarnix is a full-stack social media platform where users can post, comment, like, and manage profiles—similar to Facebook.
@@ -63,15 +64,52 @@ function Projects() {
                     Backend includes Node.js, Express, MongoDB, JWT Auth, and Cloudinary for image uploads.
                 </p>
                 <div className='projects-links'>
-                        <Link><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                        <Link to="https://github.com/RayIwobi/Yarnix-social"><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
                         <Link><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                </div>
+            </div>
+            </div>
+
+            {/* ------------------ */}
+
+            <div className='over-Container'>
+            <div className='projectsContainer'>
+                <img src={movieplace} alt='movieimage' />
+                <h2>Movieplace API App</h2>
+                <p>
+                    Movie API App is a React-based app that lets users search for movies and view detailed info fetched from the OMDb API.
+                    It features a responsive UI with movie search, result listings, and individual movie detail pages.
+                    Built with React, using react-router-dom for routing and vanilla CSS for styling.
+                    Fetches movie data in real time from the OMDb API at omdbapi.com.
+                </p>
+                <div className='projects-links'>
+                    <Link to='https://github.com/RayIwobi/MovieApp'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                    <Link to='https://movieapp-y4hw.onrender.com'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live webapp</Link>
+                </div>
+            </div>
+            
+            <div className='projectsContainer' >
+                <img src={authenticate} alt='metering-image' />
+                <h2>Authentication App</h2>
+                <p>
+                    A full-stack Authorization App built with React, Node.js, Express, and MongoDB, 
+                    featuring JWT authentication stored in HTTP-only cookies for enhanced security. 
+                    It includes user registration, login, logout, and role-based access control to 
+                    restrict protected routes. The backend uses bcrypt for password hashing and middleware 
+                    for token verification and session validation. The frontend manages authenticated routes. 
+                                 
+                    </p>
+
+                <div className='projects-links'>
+                    <Link to='https://github.com/RayIwobi/Authentication-App_fullstack-project'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                    <Link to='https://authenticate-taupe.vercel.app/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
                 </div>
             </div>
             </div>
 
             <div className='over-Container'>
             <div className='projectsContainer'>
-                <img src={movieplace} alt='nedifoods-image' />
+                <img src={movieplace} alt='movieimage' />
                 <h2>Movieplace API App</h2>
                 <p>
                     Movie API App is a React-based app that lets users search for movies and view detailed info fetched from the OMDb API.
@@ -86,7 +124,7 @@ function Projects() {
             </div>
             
             <div className='projectsContainer'>
-                <img src={meter} alt='nedifoods-image' />
+                <img src={meter} alt='metering-image' />
                 <h2>Metering Website </h2>
                 <p>
                     Metering and Instrumentation Website showcases products, services, and technical information related to industrial metering and control systems.
@@ -98,13 +136,13 @@ function Projects() {
                     <Link to='https://metering-website-azure.vercel.app/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
                 </div>
             </div>
-
-            
             </div>
+
+            {/* -------------- */}
 
             <div className='over-Container'>
             <div className='projectsContainer'>
-                <img src={login} alt='nedifoods-image' />
+                <img src={login} alt='map-image' />
                 <h2>Map Pinning App</h2>
                 <p>
                     Map Pinning App lets users drop pins on a map, add reviews to favorite locations, and save them to a database.
