@@ -371,10 +371,13 @@ span{
     background-color: white;
     opacity: 70%;
     padding-top: 10px;
-    border-radius: 10px;
-    width: 297.5px;
+    border-radius: 15px;
+    /* width: 297.5px; */
+    width: 250px;
     height: 350px;
     margin-top: 10px;
+    margin-right: 5px;
+    font-weight: 600;
 }
 
 label{

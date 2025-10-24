@@ -8,6 +8,7 @@ import meter from './assets/meter.jpg'
 import login from './assets/login.jpg'
 import authenticate from './assets/authenticate.jpg'
 import productlisting from './assets/productlisting.jpg'
+import scraper from './assets/scraper.jpg'
 
 
 import './port.css'
@@ -56,7 +57,7 @@ function Projects() {
             </div>
             <div className='projectsContainer'>
                 <img src={yarnix} alt='yarnix' />
-                <h2>Yarnix social media App</h2>
+                <h2>Yarnix social media App (coming soon)</h2>
                 <p>
                     Yarnix is a full-stack social media platform where users can post, comment, like, and manage profiles—similar to Facebook.
                     It supports user auth, real-time updates, and secure content interactions.
@@ -74,17 +75,20 @@ function Projects() {
 
             <div className='over-Container'>
             <div className='projectsContainer'>
-                <img src={movieplace} alt='movieimage' />
-                <h2>Movieplace API App</h2>
+                <img src={scraper} alt='movieimage' />
+                <h2>Amazon Scraper API</h2>
                 <p>
-                    Movie API App is a React-based app that lets users search for movies and view detailed info fetched from the OMDb API.
-                    It features a responsive UI with movie search, result listings, and individual movie detail pages.
-                    Built with React, using react-router-dom for routing and vanilla CSS for styling.
-                    Fetches movie data in real time from the OMDb API at omdbapi.com.
+                    The Amazon Scraper API is a fast, reliable, and developer-friendly REST API 
+                    that allows you to easily extract real-time product information, reviews, 
+                    and search results directly from Amazon. Whether you’re building a price 
+                    comparison tool, an e-commerce app, or a product analytics dashboard, 
+                    this API gives you the power to integrate live Amazon data into your 
+                    application in just a few lines of code. It is free to use.
+                    
                 </p>
                 <div className='projects-links'>
-                    <Link to='https://github.com/RayIwobi/MovieApp'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
-                    <Link to='https://movieapp-y4hw.onrender.com'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live webapp</Link>
+                    <Link to='https://github.com/rayiwobi/Amazon-Scraper-API_backend-project'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                    <Link to='https://amazon-scrapert.vercel.app/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live webapp</Link>
                 </div>
             </div>
             
@@ -157,7 +161,7 @@ function Projects() {
             </div>
 
             <div className='projectsContainer'>
-                <img src={productlisting} alt='nedifoods-image' />
+                <img src={productlisting} alt='nedifoods-image' /> 
                 <h2>Product listing API App</h2>
                 <p>
                     Product Listing API App is a frontend app that fetches and displays products from the Fake Store API, simulating a basic shopping experience.

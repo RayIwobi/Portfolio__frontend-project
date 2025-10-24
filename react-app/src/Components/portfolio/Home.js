@@ -89,8 +89,8 @@ function Home() {
                         <li>MongoDB</li>
                         <li>PostgreSQL</li>
                         <li>MySQL</li>
-                        <li>Render</li>
-                        <li>Vercel</li>
+                        <li>Render / Vercel</li>
+                        <li>AWS</li>
                     </ul>
             </div>
             <div className='skillContainer2'>
