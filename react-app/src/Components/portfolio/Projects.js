@@ -6,7 +6,7 @@ import yarnix from './assets/yarnix.jpg'
 import movieplace from './assets/movieplace.jpg'
 import meter from './assets/meter.jpg'
 import login from './assets/login.jpg'
-import authenticate from './assets/authenticate.jpg'
+import authenticate from './assets/authenticate.png'
 import productlisting from './assets/productlisting.jpg'
 import scraper from './assets/scraper.jpg'
 
@@ -75,7 +75,7 @@ function Projects() {
 
             <div className='over-Container'>
             <div className='projectsContainer'>
-                <img src={scraper} alt='movieimage' />
+                <img src={scraper} alt='movieimage' className='scraperimg'/>
                 <h2>Amazon Scraper API</h2>
                 <p>
                     The Amazon Scraper API is a fast, reliable, and developer-friendly REST API 
@@ -126,20 +126,22 @@ function Projects() {
                     <Link to='https://movieapp-y4hw.onrender.com'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live webapp</Link>
                 </div>
             </div>
-            
-            <div className='projectsContainer'>
-                <img src={meter} alt='metering-image' />
-                <h2>Metering Website </h2>
+             <div className='projectsContainer'>
+                <img src={productlisting} alt='nedifoods-image' /> 
+                <h2>Product listing API App</h2>
                 <p>
-                    Metering and Instrumentation Website showcases products, services, and technical information related to industrial metering and control systems.
-                    Built with React, using react-router-dom for navigation and CSS for responsive design.
-                    Dynamic content and user interactions are handled via Axios, with possible backend support for form submissions. The platform is built using the MERN stack technology.
+                    Product Listing API App is a frontend app that fetches and displays products from the Fake Store API, simulating a basic shopping experience.
+                    Users can browse products, view detailed info, and add items to a cart.
+                    Built with React, using Redux Toolkit for state management and react-router-dom for navigation.
+                    Styled with vanilla CSS and powered by data from the external Fake Store API.
                 </p>
                 <div className='projects-links'>
-                    <Link to='https://github.com/RayIwobi/metering-website'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
-                    <Link to='https://metering-website-azure.vercel.app/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                    <Link to='https://github.com/RayIwobi/product-listing'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                    <Link to='https://product-listing-ecru-kappa.vercel.app/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
                 </div>
             </div>
+            
+            
             </div>
 
             {/* -------------- */}
@@ -161,17 +163,16 @@ function Projects() {
             </div>
 
             <div className='projectsContainer'>
-                <img src={productlisting} alt='nedifoods-image' /> 
-                <h2>Product listing API App</h2>
+                <img src={meter} alt='metering-image' />
+                <h2>Metering Website </h2>
                 <p>
-                    Product Listing API App is a frontend app that fetches and displays products from the Fake Store API, simulating a basic shopping experience.
-                    Users can browse products, view detailed info, and add items to a cart.
-                    Built with React, using Redux Toolkit for state management and react-router-dom for navigation.
-                    Styled with vanilla CSS and powered by data from the external Fake Store API.
+                    Metering and Instrumentation Website showcases products, services, and technical information related to industrial metering and control systems.
+                    Built with React, using react-router-dom for navigation and CSS for responsive design.
+                    Dynamic content and user interactions are handled via Axios, with possible backend support for form submissions. The platform is built using the MERN stack technology.
                 </p>
                 <div className='projects-links'>
-                    <Link to='https://github.com/RayIwobi/product-listing'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
-                    <Link to='https://product-listing-ecru-kappa.vercel.app/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                    <Link to='https://github.com/RayIwobi/metering-website'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                    <Link to='https://metering-website-azure.vercel.app/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
                 </div>
             </div>
             
