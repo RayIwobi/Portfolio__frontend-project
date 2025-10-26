@@ -9,6 +9,7 @@ import login from './assets/login.jpg'
 import authenticate from './assets/authenticate.png'
 import productlisting from './assets/productlisting.jpg'
 import scraper from './assets/scraper.jpg'
+import ideavault from './assets/ideavault.jpg'
 
 
 import './port.css'
@@ -56,16 +57,17 @@ function Projects() {
                 </div>
             </div>
             <div className='projectsContainer'>
-                <img src={yarnix} alt='yarnix' />
-                <h2>Yarnix social media App (coming soon)</h2>
+                <img src={ideavault} alt='yarnix' />
+                <h2>ideaVault</h2>
                 <p>
-                    Yarnix is a full-stack social media platform where users can post, comment, like, and manage profiles—similar to Facebook.
-                    It supports user auth, real-time updates, and secure content interactions.
-                    Frontend built with React, using Axios, useContext, react-router-dom, and Vanilla CSS.
-                    Backend includes Node.js, Express, MongoDB, JWT Auth, and Cloudinary for image uploads.
+                    IdeaVault is a full-stack MERN application built to help creators, entrepreneurs, 
+                    and innovators share their ideas with the world. Users can post their concepts, 
+                    get community feedback, upvote inspiring ideas, and collaborate with others to 
+                    bring innovation to life.Real-Time Collaboration: Live updates powered by WebSockets 
+                    for a dynamic community experience.                
                 </p>
                 <div className='projects-links'>
-                        <Link to="https://github.com/RayIwobi/Yarnix-social"><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                        <Link to="https://github.com/RayIwobi/ideavault"><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
                         <Link><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
                 </div>
             </div>
@@ -159,6 +161,39 @@ function Projects() {
                 <div className='projects-links'>
                     <Link to=''><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
                     <Link to=''><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                </div>
+            </div>
+
+            <div className='projectsContainer'>
+                <img src={meter} alt='metering-image' />
+                <h2>Metering Website </h2>
+                <p>
+                    Metering and Instrumentation Website showcases products, services, and technical information related to industrial metering and control systems.
+                    Built with React, using react-router-dom for navigation and CSS for responsive design.
+                    Dynamic content and user interactions are handled via Axios, with possible backend support for form submissions. The platform is built using the MERN stack technology.
+                </p>
+                <div className='projects-links'>
+                    <Link to='https://github.com/RayIwobi/metering-website'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                    <Link to='https://metering-website-azure.vercel.app/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                </div>
+            </div>
+            
+            </div>
+
+            {/* ----------last------------- */}
+             <div className='over-Container'>
+            <div className='projectsContainer'>
+                <img src={yarnix} alt='yarnix' />
+                <h2>Yarnix social media App (coming soon)</h2>
+                <p>
+                    Yarnix is a full-stack social media platform where users can post, comment, like, and manage profiles—similar to Facebook.
+                    It supports user auth, real-time updates, and secure content interactions.
+                    Frontend built with React, using Axios, useContext, react-router-dom, and Vanilla CSS.
+                    Backend includes Node.js, Express, MongoDB, JWT Auth, and Cloudinary for image uploads.
+                </p>
+                <div className='projects-links'>
+                        <Link to="https://github.com/RayIwobi/Yarnix-social"><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                        <Link><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
                 </div>
             </div>
 
