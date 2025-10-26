@@ -68,7 +68,7 @@ function Projects() {
                 </p>
                 <div className='projects-links'>
                         <Link to="https://github.com/RayIwobi/ideavault"><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
-                        <Link><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                        <Link to='https://idea-vault-seven.vercel.app/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
                 </div>
             </div>
             </div>
